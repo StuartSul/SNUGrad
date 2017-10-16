@@ -1,2 +1,6 @@
+# Build
 bin
 release
+
+# Builder
+Makefile
