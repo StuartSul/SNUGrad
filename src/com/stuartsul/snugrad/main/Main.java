@@ -1,6 +1,6 @@
-package com.stuartsul.snugrad;
+package com.stuartsul.snugrad.main;
 
-public class Main {
+public class SNUGrad {
   public static void main(String[] args) {
     System.out.println("Hello, World!");
   }
