@@ -71,7 +71,7 @@ public class Course {
   private String professor_EN;
 
   /* Lecture Langauge 강의언어 */
-  private int langauge;
+  private int language;
   public static final int korean = 0;   // 한국어
   public static final int english = 1;  // 영어
   public static final int other = 2;
