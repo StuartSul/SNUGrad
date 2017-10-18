@@ -5,3 +5,6 @@ release
 # Builder
 Makefile
 manifest.txt
+
+# Other
+.DS_Store
