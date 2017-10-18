@@ -1,5 +1,10 @@
 package com.stuartsul.snugrad.main;
 
+import com.stuartsul.snugrad.course.CourseDatabase;
+import com.stuartsul.snugrad.department.DepartmentDatabase;
+import com.stuartsul.snugrad.handler.*;
+import com.stuartsul.snugrad.student.Student;
+
 public class SNUGrad {
 
   /* Program Information */
@@ -43,6 +48,16 @@ public class SNUGrad {
     "no option     run with graphical user interface\n" +
     "-cli          run with command line interface\n";
 
+  /* Main data */
+  static Student student;
+  static CourseDatabase courseDatabase = new CourseDatabase();
+  static DepartmentDatabase departmentDatabase = new DepartmentDatabase();
+  private static ErrorHandler errorHandler = new ErrorHandler();
+  private static Fetcher fetcher = new Fetcher();
+  private static Loader loader = new Loader();
+  private static Saver saver = new Saver();
+
+  /* main function */
   public static void main(String[] args) {
 
       System.out.print(info);
@@ -61,7 +76,6 @@ public class SNUGrad {
 
   /* Primary functions used both by CLI and GUI
      Integer return values indicate success/failure of the function */
-
   static int create(String name, String year, String department) {
     System.out.println("create " + name + " " + year + " " + department);
     return 0;
