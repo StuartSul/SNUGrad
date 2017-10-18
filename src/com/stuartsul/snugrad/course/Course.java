@@ -48,7 +48,8 @@ public class Course {
   private int class_number;
 
   /* Course Name 교과목명 */
-  private String name;
+  private String name_KR;
+  private String name_EN;
 
   /* Course Credit 학점 */
   private int credit;
@@ -66,7 +67,8 @@ public class Course {
   // to be implemented
 
   /* Professor 주담당교수 */
-  private String professor;
+  private String professor_KR;
+  private String professor_EN;
 
   /* Lecture Langauge 강의언어 */
   private int langauge;
@@ -77,8 +79,9 @@ public class Course {
   /* Constructor and Get-Functions */
   public Course(int open_year, int open_semester, int classification,
                 int division, int department, int level,
-                int year, int[] code, int class_number, String name,
-                int credit, String professor, int language) {
+                int year, int[] code, int class_number, String name_KR,
+                String name_EN, int credit, String professor_KR,
+                String professor_EN, int language) {
     this.open_year = open_year;
     this.open_semester = open_semester;
     this.classification = classification;
@@ -86,9 +89,11 @@ public class Course {
     this.level = level;
     this.year = year;
     this.class_number = class_number;
-    this.name = name;
+    this.name_KR = name_KR;
+    this.name_EN = name_EN;
     this.credit = credit;
-    this.professor = professor;
+    this.professor_KR = professor_KR;
+    this.professor_EN = professor_EN;
     this.language = language;
 
     for (int i = 0; i < this.code.length; i++)
@@ -104,8 +109,10 @@ public class Course {
   public int getYear() { return this.year; }
   public int[] getCode() { return this.code; }
   public int getClassNumber() { return this.class_number; }
-  public String getName() { return this.name; }
+  public String getNameKR() { return this.name_KR; }
+  public String getNameEN() { return this.name_EN; }
   public int getCredit() { return this.credit; }
-  public String getProfessor() { return this.professor; }
+  public String getProfessor_KR() { return this.professor_KR; }
+  public String getProfessor_EN() { return this.professor_EN; }
   public int getLanguage() { return this.language; }
 }
