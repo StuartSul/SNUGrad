@@ -6,20 +6,24 @@ public class Department {
   private String name_KR;
   private String name_EN;
   private int code;
-  private Requirement requirement = new Requirement();
-  private Division division = new Division();
+  private Requirement requirement;
+  private Division division;
 
-  /* Constructor and Get-Functions */
+  /* Constructor */
   public Department(String name_KR, String name_EN,
-                    int code, Requirement requirement,
-                    Division division) {
+                    int code, Division division) {
     this.name_KR = name_KR;
     this.name_EN = name_EN;
     this.code = code;
-    this.requirement = requirement;
     this.division = division;
   }
 
+  /* Set-Function for DepartmentDatabase Class */
+  void setRequirement(Requirement requirement) {
+    this.requirement = requirement;
+  }
+
+  /* Get-Functions */
   public String getNameKR() { return this.name_KR; }
   public String getNameEN() { return this.name_EN; }
   public int getCode() { return this.code; }

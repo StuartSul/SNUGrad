@@ -26,22 +26,28 @@ public class Division {
   private String name_KR;
   private String name_EN;
   private int code;
-  private Department[] department;
+  private Department[] departments;
 
-  /* Constructor and Get-Functions */
-  public Division(String name_KR, String name_EN,
-                  int code, Department[] department) {
+  /* Constructor */
+  public Division(String name_KR, String name_EN, int code) {
     this.name_KR = name_KR;
     this.name_EN = name_EN;
     this.code = code;
-    this.department = new Department[department.length];
-
-    for (int i = 0; i < department.length; i++)
-      this.department[i] = department[i];
   }
 
+  /* Set-Functions for DepartmentDatabase Class */
+  void setDepartmentNumber(int departmentNumber) {
+    this.departments = new Department[departmentNumber];
+  }
+
+  void setDepartments(Department[] departments) {
+    for (int i = 0; i < this.departments.length; i++)
+      this.departments[i] = departments[i];
+  }
+
+  /* Get-Functions */
   public String getNameKR() { return this.name_KR; }
   public String getNameEN() { return this.name_EN; }
   public int getCode() { return this.code; }
-  public Department[] getDepartment() { return this.department; }
+  public Department[] getDepartments() { return this.departments; }
 }

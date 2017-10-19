@@ -76,7 +76,7 @@ public class Course {
   public static final int english = 1;  // 영어
   public static final int other = 2;
 
-  /* Constructor and Get-Functions */
+  /* Constructor */
   public Course(int open_year, int open_semester, int classification,
                 int division, int department, int level,
                 int year, int[] code, int class_number, String name_KR,
@@ -100,6 +100,7 @@ public class Course {
       this.code[i] = code[i];
   }
 
+  /* Get-Functions */
   public int getOpenYear() { return this.open_year; }
   public int getOpenSemester() { return this.open_semester; }
   public int getClassification() { return this.classification; }

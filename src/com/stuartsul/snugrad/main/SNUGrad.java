@@ -1,9 +1,9 @@
 package com.stuartsul.snugrad.main;
 
-import com.stuartsul.snugrad.course.CourseDatabase;
-import com.stuartsul.snugrad.department.DepartmentDatabase;
+import com.stuartsul.snugrad.course.*;
+import com.stuartsul.snugrad.department.*;
 import com.stuartsul.snugrad.handler.*;
-import com.stuartsul.snugrad.student.Student;
+import com.stuartsul.snugrad.student.*;
 
 public class SNUGrad {
 
@@ -51,7 +51,8 @@ public class SNUGrad {
   /* Main data fields */
   static Student student;
   static CourseDatabase courseDatabase = new CourseDatabase();
-  static DepartmentDatabase departmentDatabase = new DepartmentDatabase();
+  static DepartmentDatabase departmentDatabase = new DepartmentDatabase(
+    "/resources/departmentdata/departments_kr.data", "/resources/departmentdata/departments_en.data", 10000);
   private static ErrorHandler errorHandler = new ErrorHandler();
   private static Fetcher fetcher = new Fetcher();
   private static Loader loader = new Loader();
@@ -92,7 +93,21 @@ public class SNUGrad {
   }
 
   static void department() {
-    System.out.println("department");
+    Division[] divisions = departmentDatabase.getDivisions();
+    Department[] departments;
+
+    for (int i = 0; i < divisions.length; i++) {
+        departments = divisions[i].getDepartments();
+
+        System.out.println(divisions[i].getCode() + ". " +
+          divisions[i].getNameKR() + " (" + divisions[i].getNameEN() + ")");
+
+        for (int j = 0; j < departments.length; j++)
+          System.out.println("\t" + departments[j].getCode() + ". " +
+            departments[j].getNameKR() + " (" + departments[j].getNameEN() + ")");
+
+        System.out.println();
+    }
   }
 
   static void search(String query) {
