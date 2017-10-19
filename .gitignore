@@ -6,5 +6,5 @@ release
 Makefile
 manifest.txt
 
-# Other
+# OSX
 .DS_Store
