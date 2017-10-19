@@ -1,3 +1,6 @@
+* All information regarding divisions and departments of
+* Seoul National University was retrieved from
+* http://www.snu.ac.kr/colleges on October 18th, 2017
 #인문대학
 	국어국문학과
 	중어중문학과
@@ -95,8 +98,11 @@
 	제약학과
 #음악대학
 	성악과
-	작곡과(작곡전공, 이론전공)
-	기악과(피아노전공, 현악전공, 관악전공)
+	작곡과(이론전공)
+	작곡과(작곡전공)
+	기악과(피아노전공)
+	기악과(현악전공)
+	기악과(관악전공)
 	국악과
 #의과대학
 	의예과

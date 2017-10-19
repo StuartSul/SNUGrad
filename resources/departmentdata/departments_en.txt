@@ -1,0 +1,134 @@
+* All information regarding divisions and departments of
+* Seoul National University was retrieved from
+* http://www.snu.ac.kr/colleges on October 18th, 2017
+#College of Humanities
+  Dept. of Korean Language and Literature
+  Dept. of Chinese Language and Literature
+  Dept. of English Language and Literature
+  Dept. of French Language and Literature
+  Dept. of German Language and Literature
+  Dept. of Russian Language and Literature
+  Dept. of Hispanic Language and Literature
+  Dept. of Asian Languages and Civilizations
+  Dept. of Linguistics
+  Dept. of Korean History
+  Dept. of Asian History
+  Dept. of Western History
+  Dept. of Philosophy
+  Dept. of Religious Studies
+  Dept. of Aesthetics
+  Dept. of Archaeology and Art History
+#College of Social Sciences
+  Dept. of Political Science and International Relations (Politics Track)
+  Dept. of Political Science and International Relations (IR Track)
+  Dept. of Economics
+  Dept. of Sociology
+  Dept. of Anthropology
+  Dept. of Psychology
+  Dept. of Geography
+  Dept. of Social Welfare
+  Dept. of Communication
+#College of Natural Sciences
+  Dept. of Mathematical Sciences
+  Dept. of Statistics
+  Dept. of Physics and Astronomy (Physics Track)
+  Dept. of Physics and Astronomy (Astronomy Track)
+  Dept. of Chemistry
+  Dept. of Biological Sciences
+  Dept. of Earth and Environmental Sciences
+#College of Nursing
+  Dept. of Nursing
+#College of Business Administration
+  Dept. of Business Administration
+#College of Engineering
+  Dept. of Civil and Environmental Engineering
+  Dept. of Mechanical and Aerospace Engineering (Mechanical Engineering Track)
+  Dept. of Mechanical and Aerospace Engineering (Aerospace Engineering Track)
+  Dept. of Materials Science and Engineering
+  Dept. of Electrical and Computer Engineering
+  Dept. of Computer Science and Engineering
+  Dept. of Chemical and Biological Engineering
+  Dept. of Architecture and Architectural Engineering
+  Dept. of Industrial Engineering
+  Dept. of Energy Resources Engineering
+  Dept. of Nuclear Engineering
+  Dept. of Naval Architecture and Ocean Engineering
+#College of Agriculture & Life Sciences
+  Dept. of Plant Science
+  Dept. of Forest Sciences
+  Dept. of Applied Biology and Chemistry
+  Dept. of Food and Animal Biotechnology
+  Dept. of Biosystems & Biomaterials Science and Engineering
+  Dept. of Landscape Architecture and Rural System Engineering
+  Dept. of Agricultural Economics and RuralDevelopment
+#College of Fine Arts
+  Dept. of Oriental Painting
+  Dept. of Painting
+  Dept. of Sculpture
+  Dept. of Crafts and Design (Crafts Track)
+  Dept. of Crafts and Design (Design Track)
+#College of Law
+  Dept. of Law
+#College of Education
+  Dept. of Education
+  Dept. of Korean Language Education
+  Dept. of English Education
+  Dept. of French Language Education
+  Dept. of German Language Education
+  Dept. of Social Studies Education
+  Dept. of History Education
+  Dept. of Geography Education
+  Dept. of Ethics Education
+  Dept. of Mathematics Education
+  Dept. of Physics Education
+  Dept. of Chemistry Education
+  Dept. of Biology Education
+  Dept. of Earth Science Education
+  Dept. of Physical Education
+#College of Human Ecology
+  Dept. of Consumer and Child Studies (Consumer Science Track)
+  Dept. of Consumer and Child Studies (Child Studies Track)
+  Dept. of Food and Nutrition
+  Dept. of Textiles, Merchandising and Fashion Design
+#College of Veterinary Medicine
+  Dept. of Preliminary Veterinary Medicine
+  Dept. of Veterinary Medicine
+#College of Pharmacy
+  Dept. of Pharmacy
+  Dept. of Manufacturing Pharmacy
+#College of Music
+  Dept. of Vocal Music
+  Dept. of Composition (Theory Track)
+  Dept. of Composition (Composition Track)
+  Dept. of Instrumental Music (Piano Track)
+  Dept. of Instrumental Music (String Track)
+  Dept. of Instrumental Music (Woodwind and Brass Track)
+  Dept. of Korean Music
+#College of Medicine
+  Dept. of Preliminary Medicine
+  Dept. of Medicine
+#College of Liberal Studies
+  Dept. of Liberal Studies
+#Interdisciplinary Programs
+  Computational Sciences
+  Global Environmental Management
+  Technology Management
+  Media Art
+  Information Science and Culture Studies
+  Entrepreneurship
+  Comparative Studies for East Asian Humanities
+#interdisciplinary Programs
+	중국학
+	미국학
+	러시아학
+	라틴아메리카학
+	유럽지역학
+	뇌-마음-행동
+	금융경제
+	금융수학
+	과학기술학
+	공학바이오
+	통합창의디자인
+	고전문헌학
+	인문데이터과학
+	정치-경제-철학
