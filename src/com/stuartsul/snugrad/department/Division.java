@@ -1,9 +1,5 @@
 package com.stuartsul.snugrad.department;
 
-/* All information regarding divisions and departments of
-   Seoul National University was retrieved from
-   http://www.snu.ac.kr/colleges on October 18th, 2017 */
-
 public class Division {
 
   /* Divisons */
@@ -25,4 +21,27 @@ public class Division {
   public static final int medicine = 14;          // 의과대학
   public static final int liberal = 15;           // 자유전공학부
   public static final int interdisciplinary = 16; // 연계, 연합전공
+
+  /* Fields */
+  private String name_KR;
+  private String name_EN;
+  private int code;
+  private Department[] department;
+
+  /* Constructor and Get-Functions */
+  public Division(String name_KR, String name_EN,
+                  int code, Department[] department) {
+    this.name_KR = name_KR;
+    this.name_EN = name_EN;
+    this.code = code;
+    this.department = new Department[department.length];
+
+    for (int i = 0; i < department.length; i++)
+      this.department[i] = department[i];
+  }
+
+  public String getNameKR() { return this.name_KR; }
+  public String getNameEN() { return this.name_EN; }
+  public int getCode() { return this.code; }
+  public Department[] getDepartment() { return this.department; }
 }
