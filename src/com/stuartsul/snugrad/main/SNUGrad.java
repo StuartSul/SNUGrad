@@ -50,9 +50,9 @@ public class SNUGrad {
 
   /* Main data fields */
   static Student student;
-  static CourseDatabase courseDatabase = new CourseDatabase();
   static DepartmentDatabase departmentDatabase = new DepartmentDatabase(
     "/resources/departmentdata/departments_kr.data", "/resources/departmentdata/departments_en.data", 10000);
+  static CourseDatabase courseDatabase = new CourseDatabase();
   private static ErrorHandler errorHandler = new ErrorHandler();
   private static Fetcher fetcher = new Fetcher();
   private static Loader loader = new Loader();
