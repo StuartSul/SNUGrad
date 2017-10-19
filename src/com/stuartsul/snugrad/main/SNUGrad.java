@@ -48,7 +48,7 @@ public class SNUGrad {
     "no option     run with graphical user interface\n" +
     "-cli          run with command line interface\n";
 
-  /* Main data */
+  /* Main data fields */
   static Student student;
   static CourseDatabase courseDatabase = new CourseDatabase();
   static DepartmentDatabase departmentDatabase = new DepartmentDatabase();
