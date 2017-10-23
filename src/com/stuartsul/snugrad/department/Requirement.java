@@ -1,5 +1,7 @@
 package com.stuartsul.snugrad.department;
 
+import com.stuartsul.snugrad.Course;
+
 public class Requirement {
 
   /* Department */
