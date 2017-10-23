@@ -2,7 +2,7 @@ package com.stuartsul.snugrad.department;
 
 public class Division {
 
-  /* Divisons */
+  /* Divisons
   public static final int unknown = -1;
   public static final int humanities = 0;         // 인문대학
   public static final int social_science = 1;     // 사회과학대학
@@ -21,6 +21,7 @@ public class Division {
   public static final int medicine = 14;          // 의과대학
   public static final int liberal = 15;           // 자유전공학부
   public static final int interdisciplinary = 16; // 연계, 연합전공
+  */
 
   /* Fields */
   private String name_KR;
