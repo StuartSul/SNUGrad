@@ -81,5 +81,40 @@ public class DepartmentDatabase {
 
   /* Get-Functions */
   public Division[] getDivisions() { return this.divisions; }
-  public Department[] departments() { return this.departments; }
+  public Department[] getDepartments() { return this.departments; }
+
+  /* Search Functions */
+  public Division getDivision(String name) {
+    for (int i = 0; i < this.divisions.length; i++) {
+      if (this.divisions[i].getNameKR.equals(name) ||
+          this.divisions[i].getNameEN.equals(name))
+          return this.divisions[i];
+    }
+
+    return null;
+  }
+
+  public Division getDivision(int code) {
+    if (code >= 0 && code < this.divisions.length)
+      return this.divisions[code];
+    else
+      return null;
+  }
+
+  public Department getDepartment(String name) {
+    for (int i = 0; i < this.departments.length; i++) {
+      if (this.departments[i].getNameKR.equals(name) ||
+          this.departments[i].getNameEN.equals(name))
+          return this.departments[i];
+    }
+
+    return null;
+  }
+
+  public Department getDepartment(int code) {
+    if (code >= 0 && code < this.departments.length)
+      return this.departments[code];
+    else
+      return null;
+  }
 }
