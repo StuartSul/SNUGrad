@@ -32,7 +32,7 @@ class CLI {
           System.out.print(SNUGrad.unknownCommandMessage);
           break;
         case create :
-          SNUGrad.create(option[0], option[1];
+          SNUGrad.create(option[0], option[1]);
           break;
         case open :
           SNUGrad.open(option[0]);

@@ -90,8 +90,8 @@ public class DepartmentDatabase {
   /* Search Functions */
   public Division getDivision(String name) {
     for (int i = 0; i < this.divisions.length; i++) {
-      if (this.divisions[i].getNameKR.equals(name) ||
-          this.divisions[i].getNameEN.equals(name))
+      if (this.divisions[i].getNameKR().equals(name) ||
+          this.divisions[i].getNameEN().equals(name))
           return this.divisions[i];
     }
 
@@ -107,8 +107,8 @@ public class DepartmentDatabase {
 
   public Department getDepartment(String name) {
     for (int i = 0; i < this.departments.length; i++) {
-      if (this.departments[i].getNameKR.equals(name) ||
-          this.departments[i].getNameEN.equals(name))
+      if (this.departments[i].getNameKR().equals(name) ||
+          this.departments[i].getNameEN().equals(name))
           return this.departments[i];
     }
 
