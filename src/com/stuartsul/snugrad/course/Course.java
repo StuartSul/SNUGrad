@@ -77,7 +77,7 @@ public class Course {
   public static final int other = 2;
 
   /* Constructor */
-  public Course(int open_year, int open_semester, int classification,
+  Course(int open_year, int open_semester, int classification,
                 int division, int department, int level,
                 int year, int[] code, int class_number, String name_KR,
                 String name_EN, int credit, String professor_KR,

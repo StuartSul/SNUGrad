@@ -30,7 +30,7 @@ public class Division {
   private Department[] departments;
 
   /* Constructor */
-  public Division(String name_KR, String name_EN, int code) {
+  Division(String name_KR, String name_EN, int code) {
     this.name_KR = name_KR;
     this.name_EN = name_EN;
     this.code = code;

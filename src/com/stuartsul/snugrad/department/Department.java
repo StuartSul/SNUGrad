@@ -10,7 +10,7 @@ public class Department {
   private Division division;
 
   /* Constructor */
-  public Department(String name_KR, String name_EN,
+  Department(String name_KR, String name_EN,
                     int code, Division division) {
     this.name_KR = name_KR;
     this.name_EN = name_EN;
