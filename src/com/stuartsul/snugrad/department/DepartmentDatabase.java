@@ -79,6 +79,10 @@ public class DepartmentDatabase {
     }
   }
 
+  public void updateRequirements (String requirementFileLocation) {
+
+  }
+
   /* Get-Functions */
   public Division[] getDivisions() { return this.divisions; }
   public Department[] getDepartments() { return this.departments; }

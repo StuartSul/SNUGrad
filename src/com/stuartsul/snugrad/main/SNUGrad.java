@@ -50,16 +50,24 @@ public class SNUGrad {
 
   /* Main data fields */
   static Student student;
-  static DepartmentDatabase departmentDatabase = new DepartmentDatabase(
-    "/resources/departmentdata/departments_kr.data", "/resources/departmentdata/departments_en.data", 10000);
-  static CourseDatabase courseDatabase = new CourseDatabase();
-  private static ErrorHandler errorHandler = new ErrorHandler();
-  private static Fetcher fetcher = new Fetcher();
-  private static Loader loader = new Loader();
-  private static Saver saver = new Saver();
+  static DepartmentDatabase departmentDatabase;
+  static CourseDatabase courseDatabase;
+  private static ErrorHandler errorHandler;
+  private static Fetcher fetcher;
+  private static Loader loader;
+  private static Saver saver;
 
   /* main function */
   public static void main(String[] args) {
+      departmentDatabase = new DepartmentDatabase(
+        "/resources/departmentdata/departments_kr.data",
+        "/resources/departmentdata/departments_en.data", 10000);
+      courseDatabase = new CourseDatabase();
+      departmentDatabase.updateRequirements("");
+      errorHandler = new ErrorHandler();
+      fetcher = new Fetcher();
+      loader = new Loader();
+      saver = new Saver();
 
       System.out.print(info);
 
