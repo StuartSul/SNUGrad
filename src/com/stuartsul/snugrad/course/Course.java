@@ -15,13 +15,20 @@ public class Course {
 
   /* Course Classification 교과구분 */
   private int classification;
-  public static final int general_education = 0; // 교양
-  public static final int general_selective = 1; // 일선
-  public static final int major_selective = 2;   // 전선
-  public static final int major_required = 3;    // 전필
-  public static final int teaching = 4;          // 교직
-  public static final int paper = 5;             // 논문
-  public static final int graduate = 6;          // 대학원
+  public static final int general_writing = 0;      // 학문의 기초 - 사고와 표현 교양
+  public static final int general_foreign = 1;      // 학문의 기초 - 외국어 교양
+  public static final int general_math = 2;         // 학문의 기초 - 수량적 분석과 추론 교양
+  public static final int general_science = 3;      // 학문의 기초 - 과학적 사고와 실험 교양
+  public static final int general_computer = 4;     // 학문의 기초 - 컴퓨터와 정보 활용 교양
+  public static final int general_liberalarts = 5;  // 학문의 세계 (인문사회) 교양
+  public static final int general_nature = 6;       // 학문의 세계 (자연과학) 교양
+  public static final int general_other = 7;        // 그 외 교양
+  public static final int general_selective = 8;    // 일선
+  public static final int major_selective = 9;      // 전선
+  public static final int major_required = 10;      // 전필
+  public static final int teaching = 11;            // 교직
+  public static final int paper = 12;               // 논문
+  public static final int graduate = 13;            // 대학원
 
   /* Division 개설대학 */
   private int division;
