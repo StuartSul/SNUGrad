@@ -72,9 +72,9 @@ public class DepartmentDatabase {
         this.divisions[i].setDepartments(temp);
       }
     } catch (Exception e) {
-      // TODO error-handling for file corruption
+      System.out.println("ERROR: the program cannot properly form departments database");
       e.printStackTrace();
-      System.out.println("*** an error has occurred while creating departments database ***");
+      System.out.println("Program terminated");
       System.exit(0);
     }
   }

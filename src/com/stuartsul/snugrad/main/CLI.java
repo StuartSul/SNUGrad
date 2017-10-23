@@ -21,7 +21,7 @@ class CLI {
     Scanner sc = new Scanner(System.in);
 
     String line;
-    String[] option = new String[10];
+    String[] option = new String[5];
 
     while (true) {
       System.out.print(SNUGrad.promptMessage);
@@ -32,7 +32,7 @@ class CLI {
           System.out.print(SNUGrad.unknownCommandMessage);
           break;
         case create :
-          SNUGrad.create(option[0], option[1], option[2]);
+          SNUGrad.create(option[0], option[1];
           break;
         case open :
           SNUGrad.open(option[0]);
@@ -78,7 +78,7 @@ class CLI {
 
     if (command.equals("create")) {
 
-      for (int i = 0; i < 3; i++) {
+      for (int i = 0; i < 2; i++) {
         if (sc.hasNext())
           option[i] = sc.next();
         else

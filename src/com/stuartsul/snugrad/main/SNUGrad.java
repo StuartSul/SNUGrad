@@ -27,21 +27,21 @@ public class SNUGrad {
 
   static final String commandInfo =
     "Command syntax : main_command <option1> <option2> ...\n" +
-    "     create <name> <class_year> <department_code>  creates and opens new student data\n" +
-    "     open <student_file_location>                  opens an existing student data\n" +
-    "     save <student_file_name>                      saves current student data\n" +
-    "     __________________________________________________________________________________________________________\n" +
-    "     department                                    displays all the departments with their codes\n" +
-    "     search <course_name>                          searches for courses and their codes\n" +
-    "     update                                        updates course database from sugang site\n" +
-    "     __________________________________________________________________________________________________________\n" +
-    "     status                                        displays current student data with graduation statistics\n" +
-    "     add <course_code>                             adds a taken course to current student data\n" +
-    "     delete <course_code>                          deletes a taken course information from current student data\n" +
-    "     __________________________________________________________________________________________________________\n" +
-    "     help                                          displays the list of commands\n" +
-    "     info                                          displays program information\n" +
-    "     exit                                          exits program\n";
+    "     create <name> <class_year>    creates and opens new student data\n" +
+    "     open <student_file_location>  opens an existing student data\n" +
+    "     save <student_file_name>      saves current student data\n" +
+    "     __________________________________________________________________________________________\n" +
+    "     department                    displays all the departments with their codes\n" +
+    "     search <course_name>          searches for courses and their codes\n" +
+    "     update                        updates course database from sugang site\n" +
+    "     __________________________________________________________________________________________\n" +
+    "     status                        displays current student data with graduation statistics\n" +
+    "     add <course_code>             adds a taken course to current student data\n" +
+    "     delete <course_code>          deletes a taken course information from current student data\n" +
+    "     __________________________________________________________________________________________\n" +
+    "     help                          displays the list of commands\n" +
+    "     info                          displays program information\n" +
+    "     exit                          exits program\n";
 
   static final String usageInfo =
     "<Usage>\n" +
@@ -77,8 +77,8 @@ public class SNUGrad {
 
   /* Primary functions used both by CLI and GUI
      Integer return values indicate success/failure of the function */
-  static int create(String name, String year, String department) {
-    System.out.println("create " + name + " " + year + " " + department);
+  static int create(String name, String year) {
+    System.out.println("create " + name + " " + year);
     return 0;
   }
 
